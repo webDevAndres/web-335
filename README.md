@@ -1,2 +1,4 @@
-# web-335
-Bellevue university Introduction to NoSQL
+# WEB 335 Introduction to NoSQL
+## Contributors
+* Richard Krasso
+* Andres Macias
