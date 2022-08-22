@@ -1,0 +1,31 @@
+{
+    "student": {
+      "studentId": 1,
+      "firstName": "Clark",
+      "lastName": "Kangaroo",
+      "enrollment": [
+        {
+          "term": 1,
+          "gpa": 3.5,
+          "startDate": "08/28/2022",
+          "endDate": "11/20/2022",
+          "course": [
+            {
+              "courseId": 121,
+              "description": "Culinary Arts 1",
+              "instructor": "Jabba the chef",
+              "score": 86,
+              "letterGrade": "B"
+            },
+            {
+              "courseId": 240,
+              "description": "Advanced Linguistics",
+              "instructor": "Dr. Scooby-Do",
+              "score": 100,
+              "letterGrade": "A"
+            }
+          ]
+        }
+      ]
+    }
+  }

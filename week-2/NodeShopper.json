@@ -1,0 +1,51 @@
+{
+  "customer": {
+    "_id": 1,
+    "firstName": "Tony",
+    "lastName": "Shark",
+    "dateOfBirth": "January 22, 1970",
+    "username": "tshark",
+    "invoice": [
+      {
+        "_id": 1,
+        "createDate": "07/20/2022",
+        "shipDate": "07/25/2022",
+        "subtotal": 59.99,
+        "lineItem": [
+          {
+            "_id": 1,
+            "productName": "32 inch LCD TV",
+            "price": 49.99,
+            "qty": 1
+          },
+          {
+            "_id": 2,
+            "productName": "Universal Remote",
+            "price": 10.0,
+            "qty": 1
+          }
+        ]
+      },
+      {
+        "_id": 2,
+        "createDate": "08/1/2022",
+        "shipDate": "08/5/2022",
+        "subtotal": 40.00,
+        "lineItem": [
+          {
+            "_id": 1,
+            "productName": "HDMI cable 6 feet",
+            "price": 30.00,
+            "qty": 1
+          },
+          {
+            "_id": 2,
+            "productName": "HDMI to USB adapter",
+            "price": 10.0,
+            "qty": 1
+          }
+        ]
+      }
+    ]
+  }
+}
