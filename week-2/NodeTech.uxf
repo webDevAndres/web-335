@@ -1,0 +1,45 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>11</zoom_level><element><id>UMLClass</id><coordinates><x>682</x><y>396</y><w>231</w><h>143</h></coordinates><panel_attributes>COURSE(s)
+--
+-courseId
+-description
+-instructor
+-score
+-letterGrade</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>682</x><y>143</y><w>231</w><h>143</h></coordinates><panel_attributes>ENROLLMENT(s)
+--
+-term
+-gpa
+-startDate
+-endDate</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>682</x><y>605</y><w>231</w><h>143</h></coordinates><panel_attributes>COURSE(s)
+--
+-_id
+-productName
+-price
+-qty
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>407</x><y>198</y><w>297</w><h>55</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=1.*
+has</panel_attributes><additional_attributes>10;20;250;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>187</x><y>396</y><w>231</w><h>143</h></coordinates><panel_attributes>ENROLLMENT(s)
+--
+-term
+-gpa
+-startDate
+-endDate</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>187</x><y>143</y><w>231</w><h>143</h></coordinates><panel_attributes>STUDENT
+--
+-studentId
+-firstName
+-lastName</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>407</x><y>451</y><w>297</w><h>55</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=1.*
+has</panel_attributes><additional_attributes>10;20;250;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>187</x><y>605</y><w>231</w><h>143</h></coordinates><panel_attributes>STUDENT
+--
+-studentId
+-firstName
+-lastName</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>407</x><y>660</y><w>297</w><h>55</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=1.*
+enroll(s)</panel_attributes><additional_attributes>10;20;250;20</additional_attributes></element><element><id>Text</id><coordinates><x>385</x><y>11</y><w>297</w><h>121</h></coordinates><panel_attributes>Business Rules:
+1. a STUDENT has many ENROLLMENT(s)
+
+2. an ENROLLMENT has many COURSE(s)
+
+3. a STUDENT ENROLL(s) in many COURSE(s)</panel_attributes><additional_attributes></additional_attributes></element></diagram>

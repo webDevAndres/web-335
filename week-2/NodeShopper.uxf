@@ -1,0 +1,65 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>9</zoom_level><element><id>UMLClass</id><coordinates><x>576</x><y>360</y><w>189</w><h>117</h></coordinates><panel_attributes>CUSTOMER
+--
+-_id
+-firstName
+-lastName
+-dateOfBirth
+-username</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>576</x><y>153</y><w>189</w><h>117</h></coordinates><panel_attributes>INVOICE
+--
+-_id
+-createDate
+-shipDate
+-subtotal</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>576</x><y>531</y><w>189</w><h>117</h></coordinates><panel_attributes>LINEITEM(s)
+--
+-_id
+-productName
+-price
+-qty
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>351</x><y>198</y><w>243</w><h>45</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=1.*
+have</panel_attributes><additional_attributes>10;20;250;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>171</x><y>360</y><w>189</w><h>117</h></coordinates><panel_attributes>INVOICE
+--
+-_id
+-createDate
+-shipDate
+-subtotal</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>171</x><y>153</y><w>189</w><h>117</h></coordinates><panel_attributes>CUSTOMER
+--
+-_id
+-firstName
+-lastName
+-dateOfBirth
+-username</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>351</x><y>405</y><w>243</w><h>45</h></coordinates><panel_attributes>lt=-
+m1=1.*
+m2=1
+assigned</panel_attributes><additional_attributes>10;20;250;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>171</x><y>531</y><w>189</w><h>117</h></coordinates><panel_attributes>INVOICE
+--
+-_id
+-createDate
+-shipDate
+-subtotal</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>351</x><y>576</y><w>243</w><h>45</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=1.*
+have</panel_attributes><additional_attributes>10;20;250;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>171</x><y>738</y><w>189</w><h>108</h></coordinates><panel_attributes>LINEITEM(s)
+--
+-_id
+-productName
+-price
+-qty
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>576</x><y>729</y><w>189</w><h>117</h></coordinates><panel_attributes>INVOICE
+--
+-_id
+-createDate
+-shipDate
+-subtotal</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>351</x><y>783</y><w>243</w><h>45</h></coordinates><panel_attributes>lt=-
+m1=1.*
+m2=1
+added</panel_attributes><additional_attributes>10;20;250;20</additional_attributes></element><element><id>Text</id><coordinates><x>324</x><y>9</y><w>306</w><h>117</h></coordinates><panel_attributes>Business Rules:
+1. a CUSTOMER can have many INVOICE(s)
+
+2. many INVOICE(s) are assigned to a CUSTOMER
+
+3. an INVOICE can have many LINEITEM(s)
+
+4. many LINEITEMs are added to an INVOICE
+</panel_attributes><additional_attributes></additional_attributes></element></diagram>
