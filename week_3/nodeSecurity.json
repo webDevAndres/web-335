@@ -1,0 +1,37 @@
+{
+    "user": {
+      "userId": 1,
+      "firstName": "Clark",
+      "lastName": "Kangaroo",
+      "role": [
+        {
+          "roleID": 1,
+          "roleName": "admin",
+          "permission": [
+            {
+              "permissionId": 1001,
+              "permissionName": "read/write"
+            },
+            {
+              "permissionId": 240,
+              "permissionName": "author"
+            }
+          ]
+        },
+        {
+            "roleID": 2,
+            "roleName": "QA",
+            "permission": [
+              {
+                "permissionId": 1001,
+                "permissionName": "read/write"
+              },
+              {
+                "permissionId": 332,
+                "permissionName": "guest"
+              }
+            ]
+          }
+      ]
+    }
+  }

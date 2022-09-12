@@ -1,0 +1,22 @@
+{
+    "Publisher": {
+      "publisher_name": "North-South Books",
+      "publisher_code": "251",
+      "publisher_address": "123 Rainbow Lane",
+      "Book": [
+        {
+          "book_isbn": 9780735812321,
+          "book_name": "The Rainbow fish",
+          "book_price": 10.99,
+          "author": [
+            {
+              "author_first_name": "Marcus",
+              "author_last_name": "Pfister",
+              "author_phone": "123-456-7891",
+              "author_email": "mpfister@gmail.com"
+            }
+          ]
+        }
+      ]
+    }
+  }

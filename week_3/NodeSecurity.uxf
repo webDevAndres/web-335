@@ -1,0 +1,17 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>160</x><y>120</y><w>210</w><h>190</h></coordinates><panel_attributes>USER
+--
+-id
+-firstName
+-lastName</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>650</x><y>120</y><w>210</w><h>190</h></coordinates><panel_attributes>ROLE
+--
+-id
+-roleName</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>650</x><y>470</y><w>210</w><h>190</h></coordinates><panel_attributes>PERMISSION(s)
+--
+-id
+-permissionName</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>370</x><y>180</y><w>290</w><h>50</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=1.*
+have</panel_attributes><additional_attributes>10;20;270;20</additional_attributes></element><element><id>Relation</id><coordinates><x>740</x><y>300</y><w>90</w><h>190</h></coordinates><panel_attributes>lt=-
+m1=1.*
+m2=1
+associated</panel_attributes><additional_attributes>10;170;10;10</additional_attributes></element></diagram>

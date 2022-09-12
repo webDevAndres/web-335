@@ -1,0 +1,21 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>8</zoom_level><element><id>UMLClass</id><coordinates><x>217</x><y>176</y><w>168</w><h>152</h></coordinates><panel_attributes>PUBLISHER
+--
+-publisher_name
+-publisher_code
+-publisher_address
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>633</x><y>184</y><w>168</w><h>152</h></coordinates><panel_attributes>BOOK(s)
+--
+-book_isbn
+-book_name
+-book_price</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>633</x><y>424</y><w>168</w><h>152</h></coordinates><panel_attributes>AUTHOR(s)
+--
+-author_first_firstName
+-author_last_lastName
+-author_phone
+-author_email</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>377</x><y>232</y><w>272</w><h>40</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=1.*
+many</panel_attributes><additional_attributes>10;20;320;20</additional_attributes></element><element><id>Relation</id><coordinates><x>705</x><y>328</y><w>72</w><h>112</h></coordinates><panel_attributes>lt=-
+m1=1.*
+m2=1.*
+associated</panel_attributes><additional_attributes>10;120;10;10</additional_attributes></element></diagram>
