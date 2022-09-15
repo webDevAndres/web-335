@@ -41,7 +41,7 @@ printjson(db.students.aggregate([
             pipeline: [
                 {
                     $match: {
-                       houseId: "h1007"
+                        houseId: "h1007"
                     }
                 }
             ],
@@ -56,17 +56,21 @@ printjson(db.students.aggregate([
     {
         $lookup: {
             from: "houses",
-            localField: "houseId",
-            foreignField: "houseId",
+            as: "houseMascot",
+            let: { houseId: "$houseId" },
             pipeline: [
                 {
                     $match: {
-                       mascot: "Eagle"
+                        $expr: {
+                            $and: [
+                                { $eq: ["$houseId", "$$houseId"] },
+                                { $eq: ["$mascot", "Eagle"] }
+                            ]
+                        }
                     }
                 }
             ],
-            as: "mascot"
-        },
+        }
     }
 ])
 );
