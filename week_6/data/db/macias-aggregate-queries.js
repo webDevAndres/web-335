@@ -55,16 +55,16 @@ printjson(db.students.aggregate([
 printjson(db.students.aggregate([
     {
         $lookup: {
-            from: "houses",
-            as: "houseMascot",
-            let: { houseId: "$houseId" },
+            from: "houses", // foreign collection (houses)
+            as: "houseMascot", // output array field 
+            let: { houseId: "$houseId" }, // expression
             pipeline: [
                 {
                     $match: {
                         $expr: {
                             $and: [
-                                { $eq: ["$houseId", "$$houseId"] },
-                                { $eq: ["$mascot", "Eagle"] }
+                                { $eq: ["$houseId", "$$houseId"] }, // match houseid of the foreign field($) to the houseid of the local field($$) and
+                                { $eq: ["$mascot", "Eagle"] } // the mascot matches the word Eagle
                             ]
                         }
                     }
