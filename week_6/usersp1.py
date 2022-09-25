@@ -1,4 +1,4 @@
-# Title: userspl.py
+# Title: usersp1.py
 # Author: Andres Macias
 # Date: 09/15/22
 # Description: Exercise 6.3 - Python with MongoDB, Part 1
