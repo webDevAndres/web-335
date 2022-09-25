@@ -1,0 +1,18 @@
+[
+  {
+    "Book": {
+      "title": "Project Hail Mary",
+      "genre": "Scifi",
+      "author": "Andy Weir",
+      "book_id": "9780593135204"
+    }
+  },
+  {
+    "Customer": {
+      "firstName": "William",
+      "LastName": "Watlington",
+      "customerId": "c1007",
+      "wishlist:": [{}]
+    }
+  }
+]
