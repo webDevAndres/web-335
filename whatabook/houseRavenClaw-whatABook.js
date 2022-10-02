@@ -5,7 +5,6 @@ Date: 9/25/22
 Description: MongoDB queries for Assignment 7.2 - WhatABook Design
  */
 
-// variables such as "user_genre" and "user_author" are from python console application
 
 // query list of all books
 db.books.find( {} )
